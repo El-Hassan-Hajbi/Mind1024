@@ -11,6 +11,7 @@ On utilisera alors MNIST dataset comme training set et peut-être même pour év
 #### 1er problème : 
 Le réseau ne converge vers aucun des patterns
 #### 2eme problème :
-pour NUMBER_DIGITS = 10, on obtient des résultats de classifications très mauvais. 
+pour NUMBER_DIGITS = 10, on obtient des résultats de classifications très mauvais.
+![Alt text](image MIND1024_1)
 #### 3eme problème :
 Ce dernier peut être résolu si on a convergence vers les patterns (ce qui devrait être le cas dans un réseau de Hopfield, sauf spurious states), le problème est d'afficher comme output le label, et pas le pattern après classification.
