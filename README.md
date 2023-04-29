@@ -7,6 +7,8 @@ Un réseau de Hopfield est un réseau de neuronnes sans couches, et où tous les
 ## Data
 Pour le moment, on utilise 784 neuronnes, 28*28 pixels pour les images. la capacité théorique du réseau est de 80.
 On utilisera alors MNIST dataset comme training set et peut-être même pour évaluer les performances du modèle.
+En cliquant sur le bouton "show-training-set" on obtient ceci : 
+![Alt text](training_dataset.png)
 ## Avancement 
 #### 1er problème : 
 Le réseau ne converge vers aucun des patterns
