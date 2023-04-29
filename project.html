@@ -1,0 +1,35 @@
+<html>
+    <head> 
+        <title>Hopfield Mind 1024</title> 
+        <link rel="stylesheet" href="style.css">
+        <script src="script/main.js"></script>
+        <script src="script/canva.js"></script>
+        <script src="script/hopfield.js"></script>
+        <script src="script/utils.js"></script>
+        <script type = "module" src="script/app.js"></script>
+    </head>
+    <body>
+        <br>Simulation du MIND 1024
+        <div id="input-drawing">
+        </div>
+        <div id="classification-drawing">
+        </div>
+        <div id="controls">
+            <button id="run-classification">Classification</button>
+            <button id="print-cells">print-cells</button>
+            <button id="refresh">Refresh</button>
+            <button id="white">white</button>
+            <button id="whiteraw">white-raw</button>
+            <button id="black">black</button>
+            <button id="show-training-set">show-training-set</button>
+            <button id="hide-training-set">hide-training-set</button>
+
+        </div>
+        <div id="training_set"></div>
+	<br>Figure à reconnaître par le réseau de neurones (bouton Classification)
+    <div id="main-drawing">
+        <br id="output-classification"> 
+    </div>
+
+    </body>
+</html>
