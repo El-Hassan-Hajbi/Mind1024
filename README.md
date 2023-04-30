@@ -1,4 +1,4 @@
-# Simulation d'une machine neuronale mind 1024 
+# *Simulation d'une machine neuronale mind 1024 (32x32)*
 ## Introduction : simulation et application
 Le but de ce projet étant la simulation d'une machine neuronal MIND 1024, nous avons choisi comme application pour notre simulation une classification des chiffres manuscrit. Nous pourrons ensuite conclure quant aux performances du MIND 1024, ses limites .., mes surtout quant à ce qu'on peut faire avec 1024 neuronnes.
 ## Simulation du MIND 1024
