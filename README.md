@@ -37,3 +37,4 @@ Ces notions sont très importantes. En effet si le modèle est bien, les pattern
 for i in range(self.patterns):
   if x == train[i] :
     print('stable state %i' % target[i])
+#### faudra aussi implémenter le code .py dans notre site web
