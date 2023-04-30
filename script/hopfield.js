@@ -1,4 +1,4 @@
-var INTERVAL = 20;
+var INTERVAL = 80;
 var ACTIVATION_THRESHOLD = 0;
 var CONVERGE_NODES = 5;
 
@@ -108,10 +108,13 @@ this._weights = _weights;
     this._weights = weights;
 };
   Hopfield.prototype.Hebbian_Rule = function(patterns) {
-    var output = 0;
     let N = this.patterns.length;
-    for (let i = 0; i < N; i++) {
-        output += outer_product(patterns[i])/N;
+    for (let k = 0; k < N; k++) {
+        for (let i = 0; i<this.numNeurons; i++) {
+          for (let j = 0; j<this.numNeurons; j++) {
+              this._weights[i][j] = patterns[k][i] * patterns[k][j] / N
+          }
+        }
     }
   };
 
@@ -184,3 +187,5 @@ this._weights = _weights;
 
     return s;
 };
+
+
