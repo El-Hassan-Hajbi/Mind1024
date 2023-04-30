@@ -23,7 +23,7 @@ Ce dernier peut être résolu si on a convergence vers les patterns (ce qui devr
 #### Pour 3 patterns : 
 ![Alt text](animation.gif)
 #### Pour 10 patterns :
-![Alt text](animation5.gif)
+![Alt text](animation10.gif)
 On montre la différence entre l'itération 26 et la dernière :
 ![Alt text](26.png)
 ![Alt text](79.png)
