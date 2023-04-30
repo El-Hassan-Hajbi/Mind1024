@@ -21,9 +21,9 @@ Ce dernier peut être résolu si on a convergence vers les patterns (ce qui devr
 ## Ressources
 [hopfield_mnist](https://github.com/kencyke/hopfield-mnist) est une belle tentative. A utiliser pour comparer à mes résultats
 #### Pour 3 patterns : 
-<img src=animation.gif width=400px>
+![Alt text](animation.gif)
 #### Pour 10 patterns :
-<img src=animation5.gif width=400px>
+![Alt text](animation5.gif)
 On montre la différence entre l'itération 26 et la dernière :
 ![Alt text](26.png)
 ![Alt text](79.png)
