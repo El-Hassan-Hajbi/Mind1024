@@ -20,7 +20,7 @@ pour NUMBER_DIGITS = 10, on obtient des résultats de classifications très mauv
 Ce dernier peut être résolu si on a convergence vers les patterns (ce qui devrait être le cas dans un réseau de Hopfield, sauf spurious states), le problème est d'afficher comme output le label, et pas le pattern après classification.
 ## Ressources
 [hopfield_mnist](https://github.com/kencyke/hopfield-mnist) est une belle tentative. A utiliser pour comparer à mes résultats
-
+#### Pour 3 patterns : 
 <img src=animation.gif width=400px>
-
+#### Pour 10 patterns :
 <img src=animation5.gif width=400px>
