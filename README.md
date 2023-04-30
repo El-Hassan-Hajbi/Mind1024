@@ -33,3 +33,7 @@ D'où l'importance d'ajouter une condition d'arrêt indépendante du nombre d'it
 ![Alt text](animation_.gif)
 ## Stable states and spurious states : 
 Ces notions sont très importantes. En effet si le modèle est bien, les patterns d'entraînement seront des états stables, cad que on iterant sur un tel état on change rien. 
+#### On peut penser à ajouter quelques lignes de code à la fonction de synchronisation du réseau :
+for i in range(self.patterns):
+  if x == train[i] :
+    print('stable state %i' % target[i])
