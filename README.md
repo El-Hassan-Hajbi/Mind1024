@@ -28,3 +28,6 @@ On montre la différence entre l'itération 26 et la dernière :
 ![Alt text](26.png)
 ![Alt text](79.png)
 D'où l'importance d'ajouter une condition d'arrêt indépendante du nombre d'itérations qu'on s'est fixé 
+### on relance le même script pour 3 pattern en affichant leur label et les patterns d'entraînement 
+![Alt text](Training_data.png)
+![Alt text](animation_.gif)
