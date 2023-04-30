@@ -24,5 +24,7 @@ Ce dernier peut être résolu si on a convergence vers les patterns (ce qui devr
 <img src=animation.gif width=400px>
 #### Pour 10 patterns :
 <img src=animation5.gif width=400px>
-On montre la différence entre l'itération 26 et la dernière![Alt text](26.png)![Alt text](79.png)
+On montre la différence entre l'itération 26 et la dernière :
+![Alt text](26.png)
+![Alt text](79.png)
 D'où l'importance d'ajouter une condition d'arrêt indépendante du nombre d'itérations qu'on s'est fixé 
