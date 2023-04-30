@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 (function() {
-  var NUMBER_OF_DIGITS = 4;
+  var NUMBER_OF_DIGITS = 10;
   function f(vector) {
     var res = [];
     for (var element of vector) {
