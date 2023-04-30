@@ -38,3 +38,5 @@ for i in range(self.patterns):
   if x == train[i] :
     print('stable state %i' % target[i])
 #### faudra aussi implémenter le code .py dans notre site web
+## Remarque générale 
+Dans les réseaux de neuronnes on a vu que initialiser les poids avec 0 peut causer des problèmes (signals faibles) et avec des grandes valeurs (overflow). Aussi faut voir le choix de la fonction d'activation et les algos qui mettent à jour les poids.
