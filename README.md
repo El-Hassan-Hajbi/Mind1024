@@ -17,3 +17,7 @@ pour NUMBER_DIGITS = 10, on obtient des résultats de classifications très mauv
 ![Alt text](MIND1024_1.png)
 #### 3eme problème :
 Ce dernier peut être résolu si on a convergence vers les patterns (ce qui devrait être le cas dans un réseau de Hopfield, sauf spurious states), le problème est d'afficher comme output le label, et pas le pattern après classification.
+## Ressources
+[hopfield_mnist](https://github.com/kencyke/hopfield-mnist) est une belle tentative. A utiliser pour comparer à mes résultats
+pour NB_PATTERNS = 3 :
+<img src=animation.gif width=400px>
