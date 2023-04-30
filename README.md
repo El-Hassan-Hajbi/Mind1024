@@ -31,5 +31,5 @@ D'où l'importance d'ajouter une condition d'arrêt indépendante du nombre d'it
 ### on relance le même script pour 3 pattern en affichant leur label et les patterns d'entraînement 
 ![Alt text](Training_data.png)
 ![Alt text](animation_.gif)
-## Stable state and spurious states : 
+## Stable states and spurious states : 
 Ces notions sont très importantes. En effet si le modèle est bien, les patterns d'entraînement seront des états stables, cad que on iterant sur un tel état on change rien. 
