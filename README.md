@@ -9,7 +9,7 @@ Pour le moment, on utilise 784 neuronnes, 28*28 pixels pour les images. la capac
 On utilisera alors MNIST dataset comme training set et peut-être même pour évaluer les performances du modèle.
 En cliquant sur le bouton "show-training-set" on obtient ceci : 
 ![Alt text](bin/training_dataset.png)
-*Remarque : si plus tard on souhaite utiliser moins de neuronnes, donc moins de pixels pour nos images. On pourra se tourner vers [sklearn.datasets.load_digits](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html) (size 8x8) ou même utiliser [convolutional layers](https://machinelearningmastery.com/convolutional-layers-for-deep-learning-neural-networks/)*
+*Remarque : si plus tard on souhaite utiliser moins de neuronnes, donc moins de pixels pour nos images. On pourra se tourner vers [sklearn.datasets.load_digits](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html) (size 8x8) ou même utiliser [convolutional layers](https://machinelearningmastery.com/convolutional-layers-for-deep-learning-neural-networks/) ou auto-encoders*
 ## Avancement 
 #### 1er problème : 
 Le réseau ne converge vers aucun des patterns
