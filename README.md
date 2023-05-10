@@ -40,3 +40,10 @@ for i in range(self.patterns):
 #### faudra aussi implémenter le code .py dans notre site web
 ## Remarque générale 
 Dans les réseaux de neuronnes on a vu que initialiser les poids avec 0 peut causer des problèmes (signals faibles) et avec des grandes valeurs (overflow). Aussi faut voir le choix de la fonction d'activation et les algos qui mettent à jour les poids.
+
+
+## algo :
+pour eliminer les spurious states, on utilise Storkey comme learning method pour notre reseau de Hopfield.
+Cependant cela marche tres bien pour 2 pattern, moins bien pour 3. Et pour plus on remarque que le reseaux converge toujours vers le dernier pattern entrainé.
+On essayera de revoir l'algo de convergence et peut etre utiliser backward propagation ou gradient descent.
+
